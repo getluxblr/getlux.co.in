@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <title>FAQ</title>
+  <link rel="icon" type="image/x-icon" href="image/logo.png">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papf8A4N8G+e3b3I5mYykhTGl7OVbV4Fx1cZB7v5z8Ih0qIfE3P1s1C8y1ReRZ0iZs7hN+q3zsfTzA8L9C+pKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <header>
+    <div class="logo">
+        <a href="index.html"><img src="image/logo1.png" alt="Agency Logo" class="logo-img"></a>
+    </div>
+    <section id="nav" class="nav-boxes">
+      <a href="index.html"><i class="fas fa-home"></i> Home</a>
+      <a href="about.html"><i class="fas fa-users"></i> About Us</a>
+      <a href="service.html"><i class="fas fa-briefcase"></i> Services</a>
+      <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+       </section>
+  </header>
+    
+    <section class="faq-section">
+        <h2 class="faq-header">Frequently Asked Questions</h2>
+
+        <div class="faq-container">
+            <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">1. What services does Getlux offer?</button>
+                    <div class="faq-answer">
+                        <p>Getlux offers a variety of services, including:</p>
+                        <ul>
+                            <li>Telecalling for Debt Collections</li>
+                            <li>Sales Services</li>
+                            <li>Customer Support</li>
+                            <li>Email Support</li>
+                            <li>Chat Support</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">2. How does Getlux help with debt collections?</button>
+                    <div class="faq-answer">
+                        <p>We specialize in debt collections by managing XBUCKET to 365+ NPA data. Our telecalling team achieves a better conversion rate than other agencies, ensuring successful debt recovery for our clients.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">3. How do you provide sales services?</button>
+                    <div class="faq-answer">
+                        <p>We provide sales services through:</p>
+                        <ul>
+                            <li>Telecalling</li>
+                            <li>Email Communication</li>
+                            <li>Other Tools</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">4. What kind of customer support services does Getlux offer?</button>
+                    <div class="faq-answer">
+                        <p>We offer customer support through various channels:</p>
+                        <ul>
+                            <li>Inbound Support</li>
+                            <li>Outbound Support</li>
+                            <li>Real-Time Query Solving</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">5. Can Getlux handle email support for customer inquiries?</button>
+                    <div class="faq-answer">
+                        <p>Yes, we provide email support services, responding to customer queries regarding refunds, product concerns, and general inquiries to maintain positive customer relations.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-item">
+                    <button class="faq-question">6. How does the debt collection process work?</button>
+                    <div class="faq-answer">
+                        <p>Our debt collection process starts with identifying the outstanding debts and then contacting the debtors via telecalling and follow-up emails to recover the funds.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 7 -->
+                <div class="faq-item">
+                    <button class="faq-question">7. Do you offer multilingual support for debt collection?</button>
+                    <div class="faq-answer">
+                        <p>Yes, we provide multilingual support to cater to clients across different regions, ensuring a seamless debt collection experience.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 8 -->
+                <div class="faq-item">
+                    <button class="faq-question">8. What industries does Getlux cater to?</button>
+                    <div class="faq-answer">
+                        <p>Getlux caters to various industries, including financial services, telecom, utilities, retail, and more.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 9 -->
+                <div class="faq-item">
+                    <button class="faq-question">9. How does your real-time chat support work?</button>
+                    <div class="faq-answer">
+                        <p>Our real-time chat support allows customers to connect with agents instantly to resolve any queries and receive immediate assistance.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 10 -->
+                <div class="faq-item">
+                    <button class="faq-question">10. What are your business hours for customer support?</button>
+                    <div class="faq-answer">
+                        <p>Our customer support is available Monday to Friday, 9 AM to 6 PM, and we offer extended hours during peak seasons.</p>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                button.classList.toggle('active');
+                if (answer.style.maxHeight) {
+                    answer.style.maxHeight = null;
+                } else {
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
+    
+     <footer class="footer">
+  <!-- Middle: Footer Links -->
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>Services</h4>
+      <a href="tele.html">Tele Calling</a>
+      <a href="support.html">Customer Support</a>
+    </div>
+    <div class="footer-column">
+      <h4>Our Company</h4>
+      <a href="blog.html">Blog</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+    <div class="footer-column">
+      <h4>Legal</h4>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+    <div class="footer-column">
+      <h4>Contact Us</h4>
+    <a href="mailto:getlux.blr@gmail.com"> <i class="fas fa-envelope"></i>getlux.blr@gmail.com</a>
+   <a><i class="fas fa-map-marker-alt"></i>#887/62/6/1,2nd cross, Begur road, Vivekanandanagara, Bommanahalli, Bangaluru 560 068.</a>
+    </div>
+  </div>
+     <hr>
+  <!-- Top: Social Media Icons -->
+  <div class="footer-socials">
+    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+  <!-- Bottom: Copyright -->
+  <div class="footer-bottom">
+    © 2025 Getlux. All rights reserved.
+  </div>
+     <script src="js/script.js"></script>
+<button id="backToTop" title="Back to Top">
+  <svg class="circle" width="50" height="50">
+    <circle cx="25" cy="25" r="22" stroke-width="4" />
+  </svg>
+  ⬆
+</button>
+</footer>
+    </body>
+</html>
